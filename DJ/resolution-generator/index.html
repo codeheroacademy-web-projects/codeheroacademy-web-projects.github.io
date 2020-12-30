@@ -1,0 +1,23 @@
+<html>
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<script>
+  function generateResolution() {
+    let resolutions = ["Exercise twice a week!", "Get straight A's!", "Learn to play an instrument!"];
+    let r = Math.floor(Math.random() * resolutions.length);
+    document.getElementById("answer").innerHTML = resolutions[r];
+  }
+</script>
+
+<body>
+  <h1>New Years' Resolution Generator</h1>
+
+  <input id="button" type="button" onclick="generateResolution()" value="Generate Resolution"></input>
+
+  <div id="answer">
+
+  </div>
+</body>
+</html>

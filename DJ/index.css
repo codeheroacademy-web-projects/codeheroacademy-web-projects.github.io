@@ -1,0 +1,15 @@
+html {
+  font-family: Helvetica;
+}
+h1 {
+  text-align: center;
+}
+#bio {
+  font-size: 1.5em;
+  margin-left: 5%;
+  margin-top: 40px;
+}
+#links {
+  font-size: 1.3em;
+  margin-left: 7%;
+}
