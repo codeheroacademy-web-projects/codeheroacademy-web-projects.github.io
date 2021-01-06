@@ -1,11 +1,17 @@
 h1 {position:relative;
 	text-align:center;
 	font-weight:bold;
-	font-size:30px;}
+	font-size:30px;
+color:white;}
 .Info  {margin-left:7%;
 	margin-top:40px;
 	font-size:24px;
-	font-family:Helvetica, sans-serif;}
+	font-family:Helvetica, sans-serif;
+color:white;}
 a  {position:absolute;
 	margin-left:7%;
-	font-size:22px;}
+	font-size:22px;
+color:white;}
+body{background-image: url(https://play-lh.googleusercontent.com/pKckhD4rxCgXvSWx0j5QdD_dg7Ybjzkz-MxXR0JZ9G0RV16PzVnK7dNO3wTsrcOF4fI=w412-h220-rw);
+		background-size:1540px 750px;
+		background-repeat: no-repeat;}
