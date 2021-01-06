@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#btn{position:absolute;
+			top:50%;
+			left:37%;
+			font-size:30px;}
+		#change{background-color:lightblue;
+			color:white;
+			padding:30px;
+			font-size:50px;
+			position:absolute;
+			left:35%;
+			top:55%;}
+		body{background-image: url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/10/28/1446047988227/Fireworks-of-various-colo-009.jpg?width=700&quality=85&auto=format&fit=max&s=79aa69e5037c60bc501a16877afc76d6);}
+		h1{color:white;
+			position:absolute;
+			top:30%;
+			left:28%;
+			font-size:60px;}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var strings = ["Work out 5 times a week", "Learn how to play an Instrument", "Make Healthier Decisions", "Learn to moonwalk", "Learn how to whistle"];
+		function generateResolution() {
+			var random = strings[Math.floor(Math.random()*strings.length)];
+			document.getElementById('change').innerHTML = random;
+			
+		}
+	</script>
+<h1>New Year's Resolution</h1>
+<button id="btn" type="input" onclick="generateResolution()">Generate Resolution</button>
+<p id="change">Your Resolution</p>
+</body>
+</html>
