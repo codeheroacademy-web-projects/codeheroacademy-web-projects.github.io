@@ -1,18 +1,85 @@
 <html>
 <head>
-  <link rel="stylesheet" href="index.css">
+  <style>
+    html {
+      font-family: Helvetica;
+    }
+
+    #dj-bg {
+      background-image: url("https://img1.picmix.com/output/stamp/normal/9/5/3/5/1205359_67f2a.gif") ;
+      background-size: cover;
+      z-index:-1;
+      width:100%;
+      height:100%;
+      top: 0;
+      left: 0;
+      position:absolute;
+    }
+    #headbar {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 5%;
+    }
+    #title {
+      width:50%;
+      text-align: center;
+      font-size:3em;
+      margin: auto;
+      background: rgba(255,255,255,0.7);
+    }
+    .title-img {
+      margin: auto;
+      width: 10%;
+      float: left;
+    }
+    #title-img2 {
+      transform: scaleX(-1);
+    }
+    #content {
+      background: rgba(255,255,255,0.7);
+      width: 60%;
+      margin: auto;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    #bio {
+      font-size: 1.5em;
+      margin-left: 10%;
+      width: 80%;
+      margin-top: 40px;
+    }
+    #links {
+      font-size: 1.3em;
+      margin-left: 15%;
+    }
+  </style>
 </head>
 <body>
-  <h1>DJ's Web Projects</h1>
-  <p id = "bio">
-    Hi, I'm DJ! I'm a teacher at Code Hero Academy, and I love
-    programming in JavaScript and Python, playing video games,
-    and sleeping.
-  </p>
-  <div id="links">
-    <p>
-      <a href="newyears.html">New Years' Resolution Generator</a>
+  <div id="dj-bg"></div>
+  <div id = "headbar">
+    <div class="title-img" id="title-img1">
+      <img src="https://i.gifer.com/4bXB.gif" width="200px">
+    </div>
+    <div id="title">
+      <h1>DJ's Web Projects</h1>
+    </div>
+    <div class="title-img" id="title-img2">
+      <img src="https://i.gifer.com/4bXB.gif" width="200px">
+    </div>
+  </div>
+  <div id = "content">
+    <p id = "bio">
+      Hi, I'm DJ! I'm a teacher at Code Hero Academy, and I love
+      programming in JavaScript and Python, playing video games,
+      and sleeping.
     </p>
+    <br>
+    <div id="links">
+      <b><i>PROJECTS</i></b>
+      <p>
+        <a href="newyears.html">New Years' Resolution Generator</a>
+      </p>
+    </div>
   </div>
 </body>
 </html>
