@@ -8,10 +8,11 @@
 	<input type="button" onclick="generateResolution()" width="200px" height="auto">New years resolution</input>
 <script>
 function generateResolution() {
-	var One="Get good GPA";
-    var Two="Be a good person";
-    var Three="Get rich";
+let resolution = ["Get straight A's", "Don't be an idiot", "Don't do anything stupid"]
+let res = Math.floor(Math.random() * resolution.length);
+document.getElementBy("answer").innerHTML = resolution[res];
 }
+
 </script>
-<button type="input" onclick="generateResolution()">
+<button id="button" type="button" onclick="generateResolution()" value="generateResolution">
 </body>
