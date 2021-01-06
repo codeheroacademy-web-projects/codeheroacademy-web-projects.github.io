@@ -5,13 +5,19 @@
 
 <script>
   function generateResolution() {
-    let resolutions = ["Exercise twice a week!", "Get straight A's!", "Learn to play an instrument!"];
+    let resolutions = ["Exercise twice a week!",
+    "Get straight A's!", "Learn to play an instrument!",
+    "Win a Battle Royale in Fortnite!", "Pay attention during a Zoom class!",
+    "Learn how to code in Python!", "Make a website!", "Win a game of Quizziz!",
+    "Get a world-record Minecraft speedrun!"];
     let r = Math.floor(Math.random() * resolutions.length);
     document.getElementById("answer").innerHTML = resolutions[r];
   }
 </script>
 
 <body>
+  <div id="newyearsbg">
+  </div>
   <div id="newyears">
     <h1>New Years' Resolution Generator</h1>
 

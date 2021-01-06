@@ -17,8 +17,15 @@ h1 {
 }
 #newyears {
   color: white;
-  background-image: url("https://www.journalreview.com/uploads/original/20200702-164537-new_firework.tif.jpg");
 }
+#newyearsbg {
+  background-image: url("https://www.journalreview.com/uploads/original/20200702-164537-new_firework.tif.jpg");
+  z-index:-1;
+  width:100%;
+  height:100%;
+  top: 0;
+  left: 0;
+  position:absolute;
 }
 #answer {
   font-size: 3em;
